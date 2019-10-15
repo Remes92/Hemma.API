@@ -12,15 +12,37 @@ namespace Hemma.API.Controllers.PersonController
         [HttpGet]
         public IHttpActionResult Get()
         {
-            Hemma.PersonInformation.Business.Person.GetPerson.test();
-            //Get all Persons registred. 
-            return null;
+            var persons = Hemma.PersonInformation.Business.Person.GetPerson.GetAllPersons();
+            if (persons == null)
+            {
+                return BadRequest();
+            }
+            else if (persons.Count < 1)
+            {
+                return StatusCode(System.Net.HttpStatusCode.NoContent);
+            }
+            else
+            {
+                return Ok(persons);
+            }
         }
 
         [HttpGet]
-        public IHttpActionResult GetPerson(string name)
+        //[Route("person/byname")]
+        public IHttpActionResult GetPersonByName(string name)
         {
-            return null;
+            if (string.IsNullOrEmpty(name))
+                return BadRequest();
+
+            var person = Hemma.PersonInformation.Business.Person.GetPerson.GetPersonByFirstName(name);
+
+            if(person != null)
+            {
+                return Ok(person);
+            }
+            return StatusCode(System.Net.HttpStatusCode.NoContent);
+
+
         }
 
         [HttpPost]

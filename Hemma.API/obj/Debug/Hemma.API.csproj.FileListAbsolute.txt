@@ -94,7 +94,6 @@ D:\Visual Studio\Projects\Hemma.API\Hemma.API\bin\System.Web.WebPages.Deployment
 D:\Visual Studio\Projects\Hemma.API\Hemma.API\bin\System.Web.WebPages.dll
 D:\Visual Studio\Projects\Hemma.API\Hemma.API\bin\System.Web.WebPages.Razor.dll
 D:\Visual Studio\Projects\Hemma.API\Hemma.API\bin\WebGrease.dll
-D:\Visual Studio\Projects\Hemma.API\Hemma.API\bin\Hemma.Context.dll
 D:\Visual Studio\Projects\Hemma.API\Hemma.API\bin\Hemma.PersonInformation.pdb
 D:\Visual Studio\Projects\Hemma.API\Hemma.API\bin\Hemma.PersonInformation.dll.config
 D:\Visual Studio\Projects\Hemma.API\Hemma.API\bin\EntityFramework.xml
@@ -135,8 +134,6 @@ D:\Visual Studio\Projects\Hemma.API\Hemma.API\bin\System.Web.WebPages.Deployment
 D:\Visual Studio\Projects\Hemma.API\Hemma.API\bin\System.Web.WebPages.Razor.xml
 D:\Visual Studio\Projects\Hemma.API\Hemma.API\bin\System.Web.Optimization.xml
 D:\Visual Studio\Projects\Hemma.API\Hemma.API\bin\Antlr3.Runtime.pdb
-D:\Visual Studio\Projects\Hemma.API\Hemma.API\bin\Hemma.Context.pdb
-D:\Visual Studio\Projects\Hemma.API\Hemma.API\bin\Hemma.Context.dll.config
 D:\Visual Studio\Projects\Hemma.API\Hemma.API\obj\Debug\Hemma.API.csproj.CopyComplete
 D:\Visual Studio\Projects\Hemma.API\Hemma.API\obj\Debug\Hemma.API.dll
 D:\Visual Studio\Projects\Hemma.API\Hemma.API\obj\Debug\Hemma.API.pdb
@@ -145,3 +142,14 @@ D:\Visual Studio\Projects\Hemma.API\Hemma.API\bin\Microsoft.EntityFrameworkCore.
 D:\Visual Studio\Projects\Hemma.API\Hemma.API\bin\System.Data.SqlClient.dll
 D:\Visual Studio\Projects\Hemma.API\Hemma.API\bin\Microsoft.EntityFrameworkCore.Relational.xml
 D:\Visual Studio\Projects\Hemma.API\Hemma.API\bin\Microsoft.EntityFrameworkCore.SqlServer.xml
+D:\Visual Studio\Projects\Hemma.API\Hemma.API\bin\BouncyCastle.Crypto.dll
+D:\Visual Studio\Projects\Hemma.API\Hemma.API\bin\Google.Protobuf.dll
+D:\Visual Studio\Projects\Hemma.API\Hemma.API\bin\MySql.Data.dll
+D:\Visual Studio\Projects\Hemma.API\Hemma.API\bin\Renci.SshNet.dll
+D:\Visual Studio\Projects\Hemma.API\Hemma.API\bin\Google.Protobuf.xml
+D:\Visual Studio\Projects\Hemma.API\Hemma.API\bin\MySql.Data.xml
+D:\Visual Studio\Projects\Hemma.API\Hemma.API\bin\Renci.SshNet.xml
+D:\Visual Studio\Projects\Hemma.API\Hemma.API\bin\MySql.Data.Entity.EF6.dll
+D:\Visual Studio\Projects\Hemma.API\Hemma.API\bin\MySql.Data.EntityFramework.dll
+D:\Visual Studio\Projects\Hemma.API\Hemma.API\bin\MySql.Data.Entity.EF6.xml
+D:\Visual Studio\Projects\Hemma.API\Hemma.API\bin\MySql.Data.EntityFramework.xml

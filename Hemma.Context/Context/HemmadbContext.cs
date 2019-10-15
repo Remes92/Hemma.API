@@ -6,12 +6,13 @@ namespace Hemma.Context.Context
 {
     public class HemmadbContext : DbContext
     {
-        public HemmadbContext(DbContextOptions<HemmadbContext> options) : base(options) { }
-
-        public void ConfigurConfigureServices(IServiceCollection services)
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            services.AddDbContextPool<HemmadbContext>(options =>
-                options.UseSqlServer(ConfigurationManager.ConnectionStrings["HemmDb"].ConnectionString));
+            optionsBuilder.UseSqlServer(ConfigurationManager.ConnectionStrings["HemmaDb"].ConnectionString);
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
         }
 
         public DbSet<Hemma.Context.ContextEntities.Person> Persons { get; set; }

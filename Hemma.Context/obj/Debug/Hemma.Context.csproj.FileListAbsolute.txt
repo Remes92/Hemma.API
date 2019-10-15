@@ -58,3 +58,14 @@ D:\Visual Studio\Projects\Hemma.API\Hemma.Context\bin\Debug\Microsoft.EntityFram
 D:\Visual Studio\Projects\Hemma.API\Hemma.Context\bin\Debug\System.Data.SqlClient.dll
 D:\Visual Studio\Projects\Hemma.API\Hemma.Context\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
 D:\Visual Studio\Projects\Hemma.API\Hemma.Context\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+D:\Visual Studio\Projects\Hemma.API\Hemma.Context\bin\Debug\BouncyCastle.Crypto.dll
+D:\Visual Studio\Projects\Hemma.API\Hemma.Context\bin\Debug\Google.Protobuf.dll
+D:\Visual Studio\Projects\Hemma.API\Hemma.Context\bin\Debug\MySql.Data.dll
+D:\Visual Studio\Projects\Hemma.API\Hemma.Context\bin\Debug\Renci.SshNet.dll
+D:\Visual Studio\Projects\Hemma.API\Hemma.Context\bin\Debug\Google.Protobuf.xml
+D:\Visual Studio\Projects\Hemma.API\Hemma.Context\bin\Debug\MySql.Data.xml
+D:\Visual Studio\Projects\Hemma.API\Hemma.Context\bin\Debug\Renci.SshNet.xml
+D:\Visual Studio\Projects\Hemma.API\Hemma.Context\bin\Debug\MySql.Data.Entity.EF6.dll
+D:\Visual Studio\Projects\Hemma.API\Hemma.Context\bin\Debug\MySql.Data.EntityFramework.dll
+D:\Visual Studio\Projects\Hemma.API\Hemma.Context\bin\Debug\MySql.Data.Entity.EF6.xml
+D:\Visual Studio\Projects\Hemma.API\Hemma.Context\bin\Debug\MySql.Data.EntityFramework.xml

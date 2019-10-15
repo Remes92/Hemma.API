@@ -8,9 +8,15 @@ namespace Hemma.PersonInformation.Business.Person
 {
     public class GetPerson
     {
-        public static void test()
+        public static List<Entities.Person> GetAllPersons()
         {
-            Repository.RepoTest.test();
+            var persons = Repository.GetPerson.GetAll();
+            return persons;
+        }
+
+        public static Entities.Person GetPersonByFirstName(string name)
+        {
+            return Repository.GetPerson.GetPersonByFirstName(name);
         }
     }
 }
