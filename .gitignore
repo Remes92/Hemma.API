@@ -4,5 +4,6 @@
 
 /.vs/Hemma.API/v15
 
-bin/
-packages/
+bin
+packages
+obj
