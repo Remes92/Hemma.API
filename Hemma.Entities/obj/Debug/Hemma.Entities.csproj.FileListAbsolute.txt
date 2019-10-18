@@ -1,0 +1,7 @@
+D:\Visual Studio\Projects\Hemma.API\Hemma.Entities\bin\Debug\Hemma.Entities.dll.config
+D:\Visual Studio\Projects\Hemma.API\Hemma.Entities\bin\Debug\Hemma.Entities.dll
+D:\Visual Studio\Projects\Hemma.API\Hemma.Entities\bin\Debug\Hemma.Entities.pdb
+D:\Visual Studio\Projects\Hemma.API\Hemma.Entities\obj\Debug\Hemma.Entities.csprojAssemblyReference.cache
+D:\Visual Studio\Projects\Hemma.API\Hemma.Entities\obj\Debug\Hemma.Entities.csproj.CoreCompileInputs.cache
+D:\Visual Studio\Projects\Hemma.API\Hemma.Entities\obj\Debug\Hemma.Entities.dll
+D:\Visual Studio\Projects\Hemma.API\Hemma.Entities\obj\Debug\Hemma.Entities.pdb

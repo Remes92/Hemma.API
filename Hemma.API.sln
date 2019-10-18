@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hemma.Common", "Hemma.Commo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hemma.Context", "Hemma.Context\Hemma.Context.csproj", "{CDD375E4-E742-4A75-B407-FC1D85C4B40C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hemma.Entities", "Hemma.Entities\Hemma.Entities.csproj", "{C3CECD1C-260A-44A9-A288-44B84A9D17EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{CDD375E4-E742-4A75-B407-FC1D85C4B40C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDD375E4-E742-4A75-B407-FC1D85C4B40C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDD375E4-E742-4A75-B407-FC1D85C4B40C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3CECD1C-260A-44A9-A288-44B84A9D17EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3CECD1C-260A-44A9-A288-44B84A9D17EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3CECD1C-260A-44A9-A288-44B84A9D17EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3CECD1C-260A-44A9-A288-44B84A9D17EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

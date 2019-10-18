@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Web;
+using System.Net.Http;
 using System.Web.Http;
+using System.Web.Routing;
+using Hemma.Entities.Entities;
+using Newtonsoft.Json;
 
 namespace Hemma.API.Controllers.PersonController
 {
-    
+    [RoutePrefix("api")]
     public class PersonController : ApiController
     {
         [HttpGet]
@@ -27,37 +29,67 @@ namespace Hemma.API.Controllers.PersonController
             }
         }
 
+        [Route("person/byname")]
         [HttpGet]
-        //[Route("person/byname")]
         public IHttpActionResult GetPersonByName(string name)
         {
             if (string.IsNullOrEmpty(name))
                 return BadRequest();
-
-            var person = Hemma.PersonInformation.Business.Person.GetPerson.GetPersonByFirstName(name);
-
-            if(person != null)
+            try
             {
-                return Ok(person);
+                var person = Hemma.PersonInformation.Business.Person.GetPerson.GetPersonByFirstName(name);
+                if (person == null)
+                {
+                    return BadRequest();
+                }
+                else
+                {
+                    return Ok(person);
+                }
             }
-            return StatusCode(System.Net.HttpStatusCode.NoContent);
-
-
+            catch
+            {
+                return null;
+            }
         }
 
+        [Route("person/byid")]
+        [HttpGet]
+        public IHttpActionResult GetPersonById(int id)
+        {
+            if (id == null)
+                return BadRequest();
+            try
+            {
+                var person = Hemma.PersonInformation.Business.Person.GetPerson.GetPersonById(id);
+                if (person == null)
+                {
+                    return BadRequest();
+                }
+                else
+                {
+                    return Ok(person);
+                }
+            }
+            catch
+            {
+                return null;
+            }
+        }
+
+        [Route("person/add")]
         [HttpPost]
-        [Route("Person/AddPerson")]
-        public IHttpActionResult AddPerson(string name)
+        public IHttpActionResult PostAddPerson(string firstname, string lastname)
         {
             try
             {
-
+                Hemma.PersonInformation.Business.Person.GetPerson.addPerson(firstname, lastname);
             }
             catch
             {
 
             }
-            return null;
+            return Ok();
         }
     }
 }
