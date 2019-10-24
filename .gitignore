@@ -1,9 +1,4 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
-
-/.vs/Hemma.API/v15
-*.pdb
+﻿*.pdb
 *.cache
 *.log
 *.suo
