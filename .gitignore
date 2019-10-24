@@ -3,7 +3,23 @@
 ################################################################################
 
 /.vs/Hemma.API/v15
-.vs
-bin
-packages
-obj
+*.pdb
+*.cache
+*.log
+*.suo
+*.user
+**/.vs
+**/bin
+**/obj
+
+
+
+*.nupkg
+**/packages/*
+
+!**/packages/build/
+
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.assets.json
